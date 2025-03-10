@@ -11,7 +11,7 @@
   "Scripts": {
     "Install": [
       {
-        "Uri": "https://papermc.io/api/v2/projects/paper/versions/1.21/builds/48/downloads/paper-1.21-48.jar",
+        "Uri": "https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/207/downloads/paper-1.21.4-207.jar",
         "Path": "server.jar"
       },
       {
