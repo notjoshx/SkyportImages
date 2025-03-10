@@ -1,5 +1,5 @@
 {
-  "Image": "quay.io/notjoshx/java:21",
+  "Image": "ghcr.io/notjoshx/java:21",
   "AltImages": [
     "quay.io/notjoshx/java:17",
     "quay.io/notjoshx/java:11"
