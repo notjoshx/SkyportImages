@@ -8,15 +8,15 @@
   ],
   "Cmd": "",
   "Env": [
-    "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar",
-    "MC_VERSION=1.21.4",
-    "SERVER_JAR_FILE=server.jar"
+    "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar ${SERVER_JAR}",
+    "MC_VERSION=${PAPER_VERSION}",
+    "SERVER_JAR_FILE=${SERVER_JAR}"
   ],
   "Scripts": {
     "Install": [
       {
-        "Uri": "https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/207/downloads/paper-1.21.4-207.jar",
-        "Path": "server.jar"
+        "Uri": "https://api.papermc.io/v2/projects/paper/versions/${PAPER_VERSION}/builds/${BUILD_VERSION}/downloads/paper-${PAPER_VERSION}-${BUILD_VERSION}.jar",
+        "Path": "${SERVER_JAR}"
       },
       {
         "Uri": "https://raw.githubusercontent.com/notjoshx/SkyportImages/main/spigotmc/server.properties",
@@ -26,13 +26,13 @@
   },
   "Variables": {
     "PAPER_VERSION": {
-      "type": "number",
+      "type": "text",
       "default": "1.21.1",
       "description": "Minecraft server version"
     },
     "BUILD_VERSION": {
-      "type": "number",
-      "default": "1.21.1",
+      "type": "text",
+      "default": "207",
       "description": "Minecraft server jar build version"
     },
     "SERVER_JAR": {
