@@ -1,3 +1,4 @@
+No. like 
 {
   "Image": "ghcr.io/notjoshx/java:21",
   "AltImages": [
@@ -32,7 +33,7 @@
     },
     "SERVER_JAR_FILE": {
       "type": "text",
-      "default": "test",
+      "default": "server.jar",
       "description": "The name of the server jar file"
     }
   },
