@@ -30,6 +30,11 @@
       "default": "latest",
       "description": "Minecraft server version"
     },
+    "BUILD_VERSION": {
+      "type": "number",
+      "default": "latest",
+      "description": "Minecraft server jar build version"
+    },
     "SERVER_JAR_FILE": {
       "type": "text",
       "default": "server.jar",
