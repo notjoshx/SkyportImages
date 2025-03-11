@@ -28,12 +28,12 @@
     "Variables": {
       "MC_VERSION": {
         "type": "text",
-        "default": "1.21.4",
+        "default": "test",
         "description": "Minecraft server version"
       },
       "SERVER_JAR_FILE": {
         "type": "text",
-        "default": "server.jar",
+        "default": "test",
         "description": "The name of the server jar file"
       }
     }
