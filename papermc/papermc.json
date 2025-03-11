@@ -9,13 +9,13 @@
   "Cmd": "",
   "Env": [
     "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar ${SERVER_JAR}",
-    "MC_VERSION=${PAPER_VERSION}",
-    "SERVER_JAR_FILE=${SERVER_JAR}"
+    "MC_VERSION=1.21.1",
+    "SERVER_JAR_FILE=server.jar"
   ],
   "Scripts": {
     "Install": [
       {
-        "Uri": "https://api.papermc.io/v2/projects/paper/versions/${PAPER_VERSION}/builds/${BUILD_VERSION}/downloads/paper-${PAPER_VERSION}-${BUILD_VERSION}.jar",
+        "Uri": "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/132/downloads/paper-1.21.1-132.jar",
         "Path": "server.jar"
       },
       {
