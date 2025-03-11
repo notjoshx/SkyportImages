@@ -24,18 +24,16 @@
       }
     ]
   },
-  "imageData": {
-    "Variables": {
-      "MC_VERSION": {
-        "type": "text",
-        "default": "test",
-        "description": "Minecraft server version"
-      },
-      "SERVER_JAR_FILE": {
-        "type": "text",
-        "default": "test",
-        "description": "The name of the server jar file"
-      }
+  "Variables": {
+    "MC_VERSION": {
+      "type": "text",
+      "default": "test",
+      "description": "Minecraft server version"
+    },
+    "SERVER_JAR_FILE": {
+      "type": "text",
+      "default": "test",
+      "description": "The name of the server jar file"
     }
   },
   "Name": "Minecraft Java: PaperMC",
