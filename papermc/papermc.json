@@ -25,17 +25,17 @@
     ]
   },
   "Variables": {
-    "MC_VERSION": {
+    "Paper version": {
       "type": "number",
       "default": "latest",
       "description": "Minecraft server version"
     },
-    "BUILD_VERSION": {
+    "Build version": {
       "type": "number",
       "default": "latest",
       "description": "Minecraft server jar build version"
     },
-    "SERVER_JAR_FILE": {
+    "Server JAR File": {
       "type": "text",
       "default": "server.jar",
       "description": "The name of the server jar file"
