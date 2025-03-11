@@ -26,8 +26,8 @@
   },
   "Variables": {
     "MC_VERSION": {
-      "type": "text",
-      "default": "test",
+      "type": "number",
+      "default": "latest",
       "description": "Minecraft server version"
     },
     "SERVER_JAR_FILE": {
