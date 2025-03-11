@@ -32,7 +32,7 @@
     },
     "BUILD_VERSION": {
       "type": "text",
-      "default": "207",
+      "default": "132",
       "description": "Minecraft server jar build version"
     },
     "SERVER_JAR": {
