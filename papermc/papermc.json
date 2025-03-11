@@ -9,7 +9,8 @@
   "Cmd": "",
   "Env": [
     "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar",
-    "MC_VERSION=1.21.4"
+    "MC_VERSION=1.21.4",
+    "SERVER_JAR_FILE=server.jar"
   ],
   "Scripts": {
     "Install": [
@@ -29,5 +30,19 @@
   "AuthorName": "Skyport Labs",
   "Meta": {
     "Version": "Skyport Images v2"
+  },
+  "imageData": {
+    "Variables": {
+      "MC_VERSION": {
+        "type": "text",
+        "default": "1.21.4",
+        "description": "Minecraft server version"
+      },
+      "SERVER_JAR_FILE": {
+        "type": "text",
+        "default": "server.jar",
+        "description": "The name of the server jar file"
+      }
+    }
   }
 }
