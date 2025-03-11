@@ -27,12 +27,12 @@
   "Variables": {
     "PAPER_VERSION": {
       "type": "number",
-      "default": "latest",
+      "default": "1.21.1",
       "description": "Minecraft server version"
     },
     "BUILD_VERSION": {
       "type": "number",
-      "default": "latest",
+      "default": "1.21.1",
       "description": "Minecraft server jar build version"
     },
     "SERVER_JAR": {
