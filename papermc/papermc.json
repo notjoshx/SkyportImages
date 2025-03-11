@@ -2,6 +2,7 @@
   "Image": "ghcr.io/notjoshx/java:21",
   "AltImages": [
     "ghcr.io/notjoshx/java:17",
+    "ghcr.io/notjoshx/java:16",
     "ghcr.io/notjoshx/java:11",
     "ghcr.io/notjoshx/java:8"
   ],
