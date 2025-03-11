@@ -16,7 +16,7 @@
     "Install": [
       {
         "Uri": "https://api.papermc.io/v2/projects/paper/versions/${PAPER_VERSION}/builds/${BUILD_VERSION}/downloads/paper-${PAPER_VERSION}-${BUILD_VERSION}.jar",
-        "Path": "${SERVER_JAR}"
+        "Path": "server.jar"
       },
       {
         "Uri": "https://raw.githubusercontent.com/notjoshx/SkyportImages/main/spigotmc/server.properties",
